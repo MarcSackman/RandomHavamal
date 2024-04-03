@@ -18,9 +18,10 @@ h1 {
     width: 94%;
     height: 100vh;
     display: flex;
+    text-align: center;
 }
 
-.stanzas {
+.quotes {
     width: 900px;
     height: 450px;
     margin: auto;
@@ -34,7 +35,7 @@ h1 {
     border: 10px solid gray;
 }
 
-.stanzas p, .stanzas h3 {
+.quotes p, .quotes h3 {
     font-size: 24px;
 }
 
@@ -49,7 +50,7 @@ footer a {
 }
 
 @media(max-width:480px) {
-    .stanzas p, .stanzas h3{
+    .quotes p, .quotes h3{
         font-size: 16px;
     }
 }
