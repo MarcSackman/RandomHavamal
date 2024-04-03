@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+.container{
+    width: 94%;
+    height: 100vh;
+    display: flex;
+}
+
+.stanzas{
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+    background-color: black;
+    border: 10px solid gray;
+}
+
+.stanzas p, .stanzas h3{
+    font-size: 24px;
+}
+
+@media(max-width:480px){
+    .stanzas p, .stanzas h3{
+        font-size: 16px;
+    }
+}
